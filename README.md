@@ -23,16 +23,14 @@ This is a binary classification task for which I have used 5 classification mode
 
 This is my Final result after applying all models on all types of sampling
 
-| Simple Random | Systematic  | Cluster     | Stratified  | Bootstrap   |
-|---------------|-------------|-------------|-------------|-------------|
-| 93.22916667   | 88.02083333 | 93.33333333 | 89.58333333 | 85.41666667 |
-| 96.35416667   | 92.1875     | 90          | 94.79166667 | 95.83333333 |
-| 90.625        | 89.0625     | 94.16666667 | 92.1875     | 87.5        |
-| 95.83333333   | 95.83333333 | 94.16666667 | 94.79166667 | 90.625      |
-| 82.8125       | 76.04166667 | 90.83333333 | 83.33333333 | 84.375      |
-
-### The maximum value 97.39583333333334 is given by Ada Boost Classifier Model and  Bootstrap Sampling
-
+| Classifiers          | Simple Random | Systematic  | Cluster     | Stratified  | Bootstrap   |
+|----------------------|---------------|-------------|-------------|-------------|-------------|
+| SVM                  | 91.66666667   | 88.02083333 | 91.66666667 | 89.58333333 | 91.14583333 |
+| Gradient Boosting    | 95.3125       | 92.1875     | 90          | 94.79166667 | 92.70833333 |
+| Logistic Regression  | 94.27083333   | 89.0625     | 93.33333333 | 92.1875     | 91.66666667 |
+| Ada Boost Classifier | 95.83333333   | 95.83333333 | 94.16666667 | 94.79166667 | 91.14583333 |
+| Naive Bayes          | 73.95833333   | 76.04166667 | 94.16666667 | 83.33333333 | 84.89583333 |
+### The maximum value 95.83333333333334 is given by Ada Boost Classifier Model and  Simple Random  Sampling
 
 
 
