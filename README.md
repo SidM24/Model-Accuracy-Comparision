@@ -1,4 +1,4 @@
-# ASSIGNMENT-2
+# Data Science
 # Sampling
 ## Problem: Balancing the imbalanced
 The Credit card dataset presents a significant class imbalance, featuring merely 9 instances labeled as Class '1' and a substantial majority of over 700 instances labeled as Class '0'. Consequently, if the model were to predict all entries as '0' or 'not fraud', the accuracy would misleadingly appear high, surpassing 95%.
